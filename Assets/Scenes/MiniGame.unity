@@ -408,9 +408,9 @@ GameObject:
   - component: {fileID: 454752324}
   - component: {fileID: 454752323}
   - component: {fileID: 454752322}
-  - component: {fileID: 454752328}
   - component: {fileID: 454752327}
   - component: {fileID: 454752329}
+  - component: {fileID: 454752330}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -527,7 +527,20 @@ MonoBehaviour:
   speed: 10
   countText: {fileID: 1979704339}
   winTextObject: {fileID: 1716165865}
---- !u!114 &454752328
+--- !u!114 &454752329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454752321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2de316ea99326b44f9482a1329adc5f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpHeight: 4
+--- !u!114 &454752330
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -557,19 +570,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &454752329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 454752321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2de316ea99326b44f9482a1329adc5f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpHeight: 4
 --- !u!1 &477186901
 GameObject:
   m_ObjectHideFlags: 0
